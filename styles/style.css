@@ -1,0 +1,12 @@
+body {
+    color: snow;
+    background: #4169e1;
+}
+
+div#clock_frame {
+    width: 100%;
+}
+
+div#clock_time {
+    font-size: 4em;
+}
