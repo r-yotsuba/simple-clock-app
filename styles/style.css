@@ -1,3 +1,15 @@
+/* 最小フォントサイズ : 16px */
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 1280px) {
+    /* 変化前のfont-size*2にする */
+    html {
+      font-size: 2em;
+    }
+}
+
 body {
     color: snow;
     background: #4169e1;
